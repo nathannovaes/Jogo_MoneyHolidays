@@ -447,7 +447,7 @@ public class Tabuleiro extends javax.swing.JFrame {
         getContentPane().add(imgPecaVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 50, -1, -1));
 
         tabuleiro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/tabuleiro.png"))); // NOI18N
-        getContentPane().add(tabuleiro, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1060, -1));
+        getContentPane().add(tabuleiro, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1080, -1));
 
         pack();
         setLocationRelativeTo(null);
