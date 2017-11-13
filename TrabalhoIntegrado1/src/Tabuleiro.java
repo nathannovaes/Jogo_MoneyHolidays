@@ -347,7 +347,7 @@ public class Tabuleiro extends javax.swing.JFrame {
         boxPropriedadeAzul = new javax.swing.JTextField();
         boxPropriedadeVermelho = new javax.swing.JTextField();
         imgPecaVermelho = new javax.swing.JLabel();
-        tabuleiro = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Money Holiday");
@@ -373,7 +373,7 @@ public class Tabuleiro extends javax.swing.JFrame {
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 210, -1, -1));
 
         imgPecaAzul.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/pecaAzul.png"))); // NOI18N
-        getContentPane().add(imgPecaAzul, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 20, -1, -1));
+        getContentPane().add(imgPecaAzul, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 50, -1, -1));
 
         infoBox.setEditable(false);
         infoBox.setBackground(new java.awt.Color(255, 255, 255));
@@ -444,10 +444,10 @@ public class Tabuleiro extends javax.swing.JFrame {
         getContentPane().add(boxPropriedadeVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 470, 30, -1));
 
         imgPecaVermelho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/pecaVermelha.png"))); // NOI18N
-        getContentPane().add(imgPecaVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 50, -1, -1));
+        getContentPane().add(imgPecaVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 50, -1, -1));
 
-        tabuleiro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/tabuleiro.png"))); // NOI18N
-        getContentPane().add(tabuleiro, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1080, -1));
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/tabuleiroFinal.png"))); // NOI18N
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1080, -1));
 
         pack();
         setLocationRelativeTo(null);
@@ -556,8 +556,8 @@ public class Tabuleiro extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JScrollPane jScrollPane1;
-    public javax.swing.JLabel tabuleiro;
     // End of variables declaration//GEN-END:variables
 }
