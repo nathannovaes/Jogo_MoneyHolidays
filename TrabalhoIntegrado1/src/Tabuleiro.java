@@ -364,13 +364,13 @@ public class Tabuleiro extends javax.swing.JFrame {
         getContentPane().add(btnJogar, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 570, 380, 80));
 
         imgDadoEsquerda.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/dado-01.png"))); // NOI18N
-        getContentPane().add(imgDadoEsquerda, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 210, -1, -1));
+        getContentPane().add(imgDadoEsquerda, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 230, -1, -1));
 
         imgDadoDireita.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/dado-01.png"))); // NOI18N
-        getContentPane().add(imgDadoDireita, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 210, -1, -1));
+        getContentPane().add(imgDadoDireita, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 230, -1, -1));
 
         jLabel2.setText("Dados:");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 190, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 210, -1, -1));
 
         imgPecaAzul.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/pecaAzul.png"))); // NOI18N
         getContentPane().add(imgPecaAzul, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 20, -1, -1));
@@ -382,37 +382,37 @@ public class Tabuleiro extends javax.swing.JFrame {
         infoBox.setRows(5);
         jScrollPane1.setViewportView(infoBox);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 360, 380, 140));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 50, 380, 140));
 
         jLabel1.setText("Informações:");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 330, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 20, -1, -1));
 
         jLabel3.setText("Jogadores:");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 20, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 350, -1, -1));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/pecaVermelha.png"))); // NOI18N
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 50, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 380, -1, -1));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/pecaAzul.png"))); // NOI18N
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 50, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 380, -1, -1));
 
         jLabel9.setText("Azul");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 50, -1, -1));
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 380, -1, -1));
 
         jLabel12.setText("Vermelho");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 50, -1, -1));
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 380, -1, -1));
 
         jLabel13.setText("Casa:");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 80, -1, -1));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 410, -1, -1));
 
         jLabel14.setText("R$:");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 110, -1, -1));
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 440, -1, -1));
 
         jLabel15.setText("Casa:");
-        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 80, -1, -1));
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 410, -1, -1));
 
         jLabel16.setText("R$:");
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 110, -1, -1));
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 440, -1, -1));
 
         boxCaixaAzul.setEditable(false);
         boxCaixaAzul.addActionListener(new java.awt.event.ActionListener() {
@@ -420,36 +420,37 @@ public class Tabuleiro extends javax.swing.JFrame {
                 boxCaixaAzulActionPerformed(evt);
             }
         });
-        getContentPane().add(boxCaixaAzul, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 80, 30, -1));
+        getContentPane().add(boxCaixaAzul, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 410, 30, -1));
 
         boxDinheiroAzul.setEditable(false);
-        getContentPane().add(boxDinheiroAzul, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 110, 70, -1));
+        getContentPane().add(boxDinheiroAzul, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 440, 70, -1));
 
         boxCaixaVermelho.setEditable(false);
-        getContentPane().add(boxCaixaVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 80, 30, -1));
+        getContentPane().add(boxCaixaVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 410, 30, -1));
 
         jLabel6.setText("Propriedades:");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 140, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 470, -1, -1));
 
         boxDinheiroVermelho.setEditable(false);
-        getContentPane().add(boxDinheiroVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 110, 70, -1));
+        getContentPane().add(boxDinheiroVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 440, 70, -1));
 
         jLabel7.setText("Propriedades:");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 140, -1, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 470, -1, -1));
 
         boxPropriedadeAzul.setEditable(false);
-        getContentPane().add(boxPropriedadeAzul, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 140, 30, -1));
+        getContentPane().add(boxPropriedadeAzul, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 470, 30, -1));
 
         boxPropriedadeVermelho.setEditable(false);
-        getContentPane().add(boxPropriedadeVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 140, 30, -1));
+        getContentPane().add(boxPropriedadeVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 470, 30, -1));
 
         imgPecaVermelho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/pecaVermelha.png"))); // NOI18N
         getContentPane().add(imgPecaVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 50, -1, -1));
 
         tabuleiro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/tabuleiro.png"))); // NOI18N
-        getContentPane().add(tabuleiro, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1080, -1));
+        getContentPane().add(tabuleiro, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1060, -1));
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnJogarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnJogarActionPerformed
