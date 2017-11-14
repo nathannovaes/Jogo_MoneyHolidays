@@ -12,7 +12,7 @@ public class Som {
    
       // Set up an audio input stream piped from the sound file.
       try {
-         File soundFile = new File("C:\\Users\\Nathan\\Documents\\GitHub\\TrabalhoIntegrado\\TrabalhoIntegrado1\\src\\Musica\\Som");
+         File soundFile = new File("/Musica/Som.wav");
          AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(soundFile);
          AudioFormat audioFormat = audioInputStream.getFormat();
          DataLine.Info info = new DataLine.Info(SourceDataLine.class, audioFormat);
