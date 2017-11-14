@@ -350,6 +350,7 @@ public class Tabuleiro extends javax.swing.JFrame {
         boxPropriedadeAzul = new javax.swing.JTextField();
         boxPropriedadeVermelho = new javax.swing.JTextField();
         imgPecaVermelho = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -449,7 +450,10 @@ public class Tabuleiro extends javax.swing.JFrame {
         imgPecaVermelho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/pecaVermelha.png"))); // NOI18N
         getContentPane().add(imgPecaVermelho, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 50, -1, -1));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/tabuleiroFinal.png"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/casas.png"))); // NOI18N
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/Sem-título1.gif"))); // NOI18N
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1080, -1));
 
         pack();
@@ -548,6 +552,7 @@ public class Tabuleiro extends javax.swing.JFrame {
     private javax.swing.JLabel imgPecaVermelho;
     public javax.swing.JTextArea infoBox;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
