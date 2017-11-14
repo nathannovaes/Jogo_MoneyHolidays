@@ -32,11 +32,5 @@ public class Dado {
         
         return valorDireita;
     }
-      
-    /*int SaidaDado(int valorEsquerda, int valorDireita){
-        int valorFinal = valorDireita + valorEsquerda;
-        
-        return valorFinal;
-    }*/
      
 }

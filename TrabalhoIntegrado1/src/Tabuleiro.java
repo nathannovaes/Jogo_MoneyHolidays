@@ -77,14 +77,14 @@ public class Tabuleiro extends javax.swing.JFrame {
             }              
             infoBox.setText("");
             int x, y;
-            if(vez == 1){
+            if(vez <= 1){
                 
                 
                 if(presoVermelho == true){
                     infoBox.setForeground(new java.awt.Color(255, 0, 0));
                     infoBox.append("Jogador Vermelho está preso.\n");
-                    vez--;
                     presoVermelho = false;
+                    vez--;
                 }
                 else{
                     infoBox.setForeground(new java.awt.Color(0, 51, 255));
@@ -142,8 +142,8 @@ public class Tabuleiro extends javax.swing.JFrame {
                             //PAGA AZUL -> VERMELHO
                             infoBox.append("Propriedade do jogador " + jVermelho.getNome() + "\n");
                             infoBox.append("Pague: R$" + listaPropriedades.get(posicao).getPrecoAluguel() +"\n");
-                            jAzul.setDinheiro((float) (jAzul.getDinheiro() - listaPropriedades.get(posicao).getPrecoAluguel()));
                             jVermelho.setDinheiro((float) (jVermelho.getDinheiro() + listaPropriedades.get(posicao).getPrecoAluguel()));
+                            jAzul.setDinheiro((float) (jAzul.getDinheiro() - listaPropriedades.get(posicao).getPrecoAluguel()));
                             break;
 
                         case 3:
@@ -178,8 +178,8 @@ public class Tabuleiro extends javax.swing.JFrame {
                 if(presoAzul == true){
                     infoBox.setForeground(new java.awt.Color(0, 51, 255));
                     infoBox.append("Jogador Azul está preso.\n");
-                    vez++;
                     presoAzul= false;
+                    vez++;                   
                 }
                 else{
                     infoBox.setForeground(new java.awt.Color(255, 0, 0));
@@ -220,8 +220,8 @@ public class Tabuleiro extends javax.swing.JFrame {
                             //PAGA VERMELHO -> AZUL
                             infoBox.append("Propriedade do jogador " + jAzul.getNome() + "\n");
                             infoBox.append("Pague: R$" + listaPropriedades.get(posicao).getPrecoAluguel() +"\n");
-                            jVermelho.setDinheiro((float) (jVermelho.getDinheiro() - listaPropriedades.get(posicao).getPrecoAluguel()));
                             jAzul.setDinheiro((float) (jAzul.getDinheiro() + listaPropriedades.get(posicao).getPrecoAluguel()));
+                            jVermelho.setDinheiro((float) (jVermelho.getDinheiro() - listaPropriedades.get(posicao).getPrecoAluguel()));
                             break;
                         case 2:
                             //VENDER PROPRIEDADE
