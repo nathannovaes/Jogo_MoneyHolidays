@@ -6,13 +6,15 @@ import javax.swing.JOptionPane;
  * For computer game, use Clip to pre-load short-duration sound files.
  */
 public class Som {
-   public static void main(String[] args) {
+    
+    
+   void playBackGround(){
       SourceDataLine soundLine = null;
       int BUFFER_SIZE = 64*1024;  // 64 KB
    
       // Set up an audio input stream piped from the sound file.
       try {
-         File soundFile = new File("/Musica/Som.wav");
+         File soundFile = new File("C:\\Users\\Nathan\\Documents\\GitHub\\TrabalhoIntegrado\\TrabalhoIntegrado1\\src\\Musica\\Som");
          AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(soundFile);
          AudioFormat audioFormat = audioInputStream.getFormat();
          DataLine.Info info = new DataLine.Info(SourceDataLine.class, audioFormat);
@@ -33,6 +35,6 @@ public class Som {
       } finally {
          soundLine.drain();
          soundLine.close();
-      }
-   }
+      }       
+   } 
 }
