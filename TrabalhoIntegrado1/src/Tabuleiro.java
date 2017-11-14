@@ -78,7 +78,8 @@ public class Tabuleiro extends javax.swing.JFrame {
             infoBox.setText("");
             int x, y;
             if(vez <= 1){
-                
+                infoBox.setForeground(new java.awt.Color(0, 51, 255));
+                infoBox.append("####Vez jogador Azul####\n");               
                 
                 if(presoVermelho == true){
                     infoBox.setForeground(new java.awt.Color(255, 0, 0));
@@ -93,11 +94,12 @@ public class Tabuleiro extends javax.swing.JFrame {
                     if(posicao >= 40){
                         posicao = posicao - 40;
                         jAzul.setPosicao(posicao);
+                        infoBox.append("Coletou R$ 200.0\n");
+                        jAzul.setDinheiro((float) (jAzul.getDinheiro() + 200));
                     }else{
                       jAzul.setPosicao(posicao);  
                     }               
-                    infoBox.setForeground(new java.awt.Color(0, 51, 255));
-                    infoBox.append("####Vez jogador Azul####\n");
+
 
                     x = listaPropriedades.get(posicao).getX();
                     y = listaPropriedades.get(posicao).getY();
@@ -183,16 +185,17 @@ public class Tabuleiro extends javax.swing.JFrame {
                 }
                 else{
                     infoBox.setForeground(new java.awt.Color(255, 0, 0));
+                    infoBox.append("####Vez jogador Vermelho####\n");
                     posicao = jVermelho.getPosicao();
                     posicao = posicao + valorDado;
                     if(posicao >= 40){
                         posicao = posicao - 40;
                         jVermelho.setPosicao(posicao);
+                        infoBox.append("Coletou R$ 200.0\n");
+                        jVermelho.setDinheiro((float) (jVermelho.getDinheiro() + 200));
                     }else{
                       jVermelho.setPosicao(posicao);  
                     }
-                    
-                    infoBox.append("####Vez jogador Vermelho####\n");
 
                     x = listaPropriedades.get(posicao).getX();
                     y = listaPropriedades.get(posicao).getY();
