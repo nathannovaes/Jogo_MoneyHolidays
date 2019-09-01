@@ -6,8 +6,10 @@ Esse projeto foi criado como parte de conclusão da disciplina de Linguagem de P
 
 O jogo foi feito baseado no jogo de tabuleiro Banco Imobiliário/Monopoly. Diferente do jogo real de trabuleiro, o universo do Money Holidays se passa entre as praias mais famosas do Brasil, onde cada jogador pode ou não comprar a praia. A disputa acontece entre dois jogadores, para ver quem consegue "sobreviver" até o final do jogo, sem falir financeiramente. 
 
-# Autor
 Nome: Nathan Vitiver
+
 E-mail: nathan.vitiver@gmail.com
+
 Instagram: @nathan_vitiver
+
 LinkedIn: linkedin.com/in/nathan-vitiver-a17438aa
